@@ -3,48 +3,39 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Daily Practice 2016-09-19 | Michael Learns to Code</title>
+  <title>Daily Practice 2016-09-20 | Michael Learns to Code</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="算法用栈实现队列：用栈实现队列的以下操作：
+  <meta name="description" content="算法回文（Palindrome）数字：判断一个数字是不是回文数字，不能使用另外的空间。
+提示：
 
-push(x) – 把元素x压入队列尾
-pop(）– 从队列头移除一个元素
-peek() – 返回队列头元素
-empty() – 返回队列是否为空
+负数可以是回文数字吗？
+如果转为字符串需要新分配空间
+你也许想到了反转数字，但反转数字可能溢出，怎样处理这种情况？
 
-说明：
-
-只能用标准的栈操作来实现， 包括push to top, peek/pop from top, size, is empty
-如果你选择的编程语言没有现成的栈数据结构，你可以用list或dequ">
+123456class Solution &amp;#123;public:    bool isPalindrome(int x) &amp;#123;            &amp;#125;&amp;#125">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Daily Practice 2016-09-19">
-<meta property="og:url" content="http://joeylyc.github.io/2016/09/19/Daily-Practice-2016-09-19/index.html">
+<meta property="og:title" content="Daily Practice 2016-09-20">
+<meta property="og:url" content="http://joeylyc.github.io/2016/09/20/Daily-Practice-2016-09-20/index.html">
 <meta property="og:site_name" content="Michael Learns to Code">
-<meta property="og:description" content="算法用栈实现队列：用栈实现队列的以下操作：
+<meta property="og:description" content="算法回文（Palindrome）数字：判断一个数字是不是回文数字，不能使用另外的空间。
+提示：
 
-push(x) – 把元素x压入队列尾
-pop(）– 从队列头移除一个元素
-peek() – 返回队列头元素
-empty() – 返回队列是否为空
+负数可以是回文数字吗？
+如果转为字符串需要新分配空间
+你也许想到了反转数字，但反转数字可能溢出，怎样处理这种情况？
 
-说明：
-
-只能用标准的栈操作来实现， 包括push to top, peek/pop from top, size, is empty
-如果你选择的编程语言没有现成的栈数据结构，你可以用list或dequ">
-<meta property="og:updated_time" content="2016-09-19T12:13:44.939Z">
+123456class Solution &amp;#123;public:    bool isPalindrome(int x) &amp;#123;            &amp;#125;&amp;#125">
+<meta property="og:updated_time" content="2016-09-20T03:39:17.300Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Daily Practice 2016-09-19">
-<meta name="twitter:description" content="算法用栈实现队列：用栈实现队列的以下操作：
+<meta name="twitter:title" content="Daily Practice 2016-09-20">
+<meta name="twitter:description" content="算法回文（Palindrome）数字：判断一个数字是不是回文数字，不能使用另外的空间。
+提示：
 
-push(x) – 把元素x压入队列尾
-pop(）– 从队列头移除一个元素
-peek() – 返回队列头元素
-empty() – 返回队列是否为空
+负数可以是回文数字吗？
+如果转为字符串需要新分配空间
+你也许想到了反转数字，但反转数字可能溢出，怎样处理这种情况？
 
-说明：
-
-只能用标准的栈操作来实现， 包括push to top, peek/pop from top, size, is empty
-如果你选择的编程语言没有现成的栈数据结构，你可以用list或dequ">
+123456class Solution &amp;#123;public:    bool isPalindrome(int x) &amp;#123;            &amp;#125;&amp;#125">
   
     <link rel="alternate" href="/atom.xml" title="Michael Learns to Code" type="application/atom+xml">
   
@@ -93,10 +84,10 @@ empty() – 返回队列是否为空
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-Daily-Practice-2016-09-19" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Daily-Practice-2016-09-20" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2016/09/19/Daily-Practice-2016-09-19/" class="article-date">
-  <time datetime="2016-09-19T01:45:11.000Z" itemprop="datePublished">2016-09-19</time>
+    <a href="/2016/09/20/Daily-Practice-2016-09-20/" class="article-date">
+  <time datetime="2016-09-19T23:03:18.000Z" itemprop="datePublished">2016-09-20</time>
 </a>
     
   </div>
@@ -107,7 +98,7 @@ empty() – 返回队列是否为空
         
   
     <h1 class="article-title" itemprop="name">
-      Daily Practice 2016-09-19
+      Daily Practice 2016-09-20
     </h1>
   
 
@@ -115,30 +106,24 @@ empty() – 返回队列是否为空
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><p>用栈实现队列：用栈实现队列的以下操作：</p>
+        <h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><p>回文（Palindrome）数字：判断一个数字是不是回文数字，不能使用另外的空间。</p>
+<p>提示：</p>
 <ul>
-<li>push(x) – 把元素x压入队列尾</li>
-<li>pop(）– 从队列头移除一个元素</li>
-<li>peek() – 返回队列头元素</li>
-<li>empty() – 返回队列是否为空</li>
+<li>负数可以是回文数字吗？</li>
+<li>如果转为字符串需要新分配空间</li>
+<li>你也许想到了反转数字，但反转数字可能溢出，怎样处理这种情况？</li>
 </ul>
-<p>说明：</p>
-<ul>
-<li>只能用标准的栈操作来实现， 包括push to top, peek/pop from top, size, is empty</li>
-<li>如果你选择的编程语言没有现成的栈数据结构，你可以用list或deque(双向队列)来模拟，但要求只能用标准的栈操作</li>
-<li>简单起见，可以假设所有操作都是合法，如不会对空队列进行pop或peek操作</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">class Queue &#123;</div><div class="line">public:</div><div class="line">    // Push element x to the back of queue.</div><div class="line">    void push(int x) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // Removes the element from in front of queue.</div><div class="line">    void pop(void) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // Get the front element.</div><div class="line">    int peek(void) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line"></div><div class="line">    // Return whether the queue is empty.</div><div class="line">    bool empty(void) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
-<h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><p>3个男生和7个女生站成一排，要求每2个男生之间至少有2个女生，共有多少种排列方法？如果站成一圈呢？</p>
-<h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">- Can a plane fly _____ the Atlantic Ocean?</div><div class="line">- Yes, but it needs to go _____ the clouds for hours.</div><div class="line">A. across; through     B. through; across</div><div class="line">C. across; across      D. through; through</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">class Solution &#123;</div><div class="line">public:</div><div class="line">    bool isPalindrome(int x) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><p>阿呆和阿瓜比赛下军旗，两人水平相当。两人约定赛7局，先赢4局者胜。现在已经比了3局，阿呆胜了2局，阿瓜胜了1局。请问：阿呆获得最后胜利的概率有多少？</p>
+<h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">We can see _____ sun and _____ moon in _____ picture.</div><div class="line">A. a; the; the;     B. the; a; the     C. a; the; a     D. the; the; the</div></pre></td></tr></table></figure>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://joeylyc.github.io/2016/09/19/Daily-Practice-2016-09-19/" data-id="citaxl0mh0005h0fcy22saq55" class="article-share-link">Share</a>
+      <a data-url="http://joeylyc.github.io/2016/09/20/Daily-Practice-2016-09-20/" data-id="citaxm44r000080fcp4p03dn7" class="article-share-link">Share</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/介词/">介词</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/栈/">栈</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/每天一题/">每天一题</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/计数综合/">计数综合</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/队列/">队列</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/冠词/">冠词</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/回文数字/">回文数字</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/概率初步/">概率初步</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/每天一题/">每天一题</a></li></ul>
 
     </footer>
   </div>
@@ -146,19 +131,10 @@ empty() – 返回队列是否为空
     
 <nav id="article-nav">
   
-    <a href="/2016/09/20/Daily-Practice-2016-09-20/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Daily Practice 2016-09-20
-        
-      </div>
-    </a>
   
-  
-    <a href="/2016/09/18/Daily-Practice-2016-09-18/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2016/09/19/Daily-Practice-2016-09-19/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Daily Practice 2016-09-18</div>
+      <div class="article-nav-title">Daily Practice 2016-09-19</div>
     </a>
   
 </nav>
