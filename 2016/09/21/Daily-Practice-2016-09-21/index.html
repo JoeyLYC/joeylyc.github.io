@@ -3,14 +3,27 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: 二叉树 | Michael Learns to Code</title>
+  <title>Daily Practice 2016-09-21 | Michael Learns to Code</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Michael Learns to Code">
-<meta property="og:url" content="http://joeylyc.github.io/tags/二叉树/index.html">
+  <meta name="description" content="算法路径和：对于一个二叉树，判断是否存在一个从根到叶节点的路径，使得路径上所有节点的和为给定的整数。例如以下二叉树，对给出的sum = 22，
+1234567      5     / \    4   8   /   / \  11  13  4 /  \      \7    2      1
+有路径5 -&amp;gt; 4 -&amp;gt; 11 -&amp;gt; 2，各节点的和为22，故应返回true
+12">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Daily Practice 2016-09-21">
+<meta property="og:url" content="http://joeylyc.github.io/2016/09/21/Daily-Practice-2016-09-21/index.html">
 <meta property="og:site_name" content="Michael Learns to Code">
+<meta property="og:description" content="算法路径和：对于一个二叉树，判断是否存在一个从根到叶节点的路径，使得路径上所有节点的和为给定的整数。例如以下二叉树，对给出的sum = 22，
+1234567      5     / \    4   8   /   / \  11  13  4 /  \      \7    2      1
+有路径5 -&amp;gt; 4 -&amp;gt; 11 -&amp;gt; 2，各节点的和为22，故应返回true
+12">
+<meta property="og:updated_time" content="2016-09-21T14:17:59.654Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Michael Learns to Code">
+<meta name="twitter:title" content="Daily Practice 2016-09-21">
+<meta name="twitter:description" content="算法路径和：对于一个二叉树，判断是否存在一个从根到叶节点的路径，使得路径上所有节点的和为给定的整数。例如以下二叉树，对给出的sum = 22，
+1234567      5     / \    4   8   /   / \  11  13  4 /  \      \7    2      1
+有路径5 -&amp;gt; 4 -&amp;gt; 11 -&amp;gt; 2，各节点的和为22，故应返回true
+12">
   
     <link rel="alternate" href="/atom.xml" title="Michael Learns to Code" type="application/atom+xml">
   
@@ -59,77 +72,59 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/09/21/Daily-Practice-2016-09-21/" class="archive-article-date">
-  <time datetime="2016-09-21T13:39:34.000Z" itemprop="datePublished">Sep 21</time>
+        <section id="main"><article id="post-Daily-Practice-2016-09-21" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/09/21/Daily-Practice-2016-09-21/" class="article-date">
+  <time datetime="2016-09-21T13:39:34.000Z" itemprop="datePublished">2016-09-21</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/21/Daily-Practice-2016-09-21/">Daily Practice 2016-09-21</a>
+    <h1 class="article-title" itemprop="name">
+      Daily Practice 2016-09-21
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/09/15/Daily-Practice-2016-09-15/" class="archive-article-date">
-  <time datetime="2016-09-14T23:41:03.000Z" itemprop="datePublished">Sep 15</time>
-</a>
+    <div class="article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/15/Daily-Practice-2016-09-15/">每天一题 2016-09-15</a>
-    </h1>
-  
-
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2016/09/14/Daily-Practice-2016-09-14/" class="archive-article-date">
-  <time datetime="2016-09-14T09:18:43.000Z" itemprop="datePublished">Sep 14</time>
-</a>
+        <h2 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h2><p>路径和：对于一个二叉树，判断是否存在一个从根到叶节点的路径，使得路径上所有节点的和为给定的整数。<br>例如以下二叉树，对给出的sum = 22，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">      5</div><div class="line">     / \</div><div class="line">    4   8</div><div class="line">   /   / \</div><div class="line">  11  13  4</div><div class="line"> /  \      \</div><div class="line">7    2      1</div></pre></td></tr></table></figure>
+<p>有路径5 -&gt; 4 -&gt; 11 -&gt; 2，各节点的和为22，故应返回true</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line"> * Definition for a binary tree node.</div><div class="line"> * struct TreeNode &#123;</div><div class="line"> *     int val;</div><div class="line"> *     TreeNode *left;</div><div class="line"> *     TreeNode *right;</div><div class="line"> *     TreeNode(int x) : val(x), left(NULL), right(NULL) &#123;&#125;</div><div class="line"> * &#125;;</div><div class="line"> */</div><div class="line">class Solution &#123;</div><div class="line">public:</div><div class="line">    bool hasPathSum(TreeNode* root, int sum) &#123;</div><div class="line">        </div><div class="line">    &#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+<h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><p>一个正整数，它分别加上75和48以后都不是120的倍数，但这两个和的乘积却能被120整除。请问：这个正整数最小是多少？</p>
+<h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>```<br>Basketball has a history of over 100 years. Today it is still loved by <strong>_</strong> the young <strong>_</strong> the old.</p>
+<h2 id="A-both-and-B-either-or-C-not-but-D-neither-nor"><a href="#A-both-and-B-either-or-C-not-but-D-neither-nor" class="headerlink" title="A. both; and     B. either; or     C. not; but     D. neither; nor"></a>A. both; and     B. either; or     C. not; but     D. neither; nor</h2>
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/14/Daily-Practice-2016-09-14/">每天一题 2016-09-14</a>
-    </h1>
-  
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://joeylyc.github.io/2016/09/21/Daily-Practice-2016-09-21/" data-id="citczw0ge0007jofcblze3jo2" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/二叉树/">二叉树</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数论综合/">数论综合</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/每天一题/">每天一题</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/连词/">连词</a></li></ul>
 
-    </header>
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/09/20/Daily-Practice-2016-09-20/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Daily Practice 2016-09-20</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 </section>
         
